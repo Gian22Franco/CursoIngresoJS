@@ -1,6 +1,19 @@
 function mostrar()
-{
-//tomo la edad  
+{var edad;
+
+    edad= document.getElementById("edad").value;
+    noAdolscente= (15 > edad ) && (17 < edad  );
+
+    if(noAdolscente) {
+        alert("Esta persona no es un adolscente");
 
 
-}//FIN DE LA FUNCIÓN
+    }
+    else{
+        
+    }
+
+
+
+
+}

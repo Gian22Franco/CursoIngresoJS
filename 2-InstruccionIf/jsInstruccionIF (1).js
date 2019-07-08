@@ -1,7 +1,16 @@
 function mostrar()
-{
-//tomo la edad  
+{ var edad;
 
+edad= document.getElementById("edad").value;
+nBonita = (edad == 15);
 
+if (nBonita) {
+    alert("Niña Bonita");
 
-}//FIN DE LA FUNCIÓN
+    }
+
+    else {
+        alert("Su edad es "+ edad);
+    }
+
+}
