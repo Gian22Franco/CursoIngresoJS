@@ -8,9 +8,9 @@ if (mayorEdad) {
 
     }
 
-    else {
-        alert("Su edad es "+ edad);
-    }
+    // else {
+    //     alert("Su edad es "+ edad);
+    // }
 
 
 

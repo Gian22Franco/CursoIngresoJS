@@ -1,17 +1,23 @@
 function mostrar()
 {var edad;
+ var adolescente
+
     edad= document.getElementById("edad").value;
+    
 
-adolscente= (edad >= 15 ) && (edad<=17);
-if (adolscente) { 
-    alert("Esta persona es un adolescente");
+            if (edad >= 13 && edad<=17)
+            { 
 
-    }
+                    adolescente=1;
+            
 
-    else {
-        alert("No es un adolscente");
-    }
+                if(adolescente=1)
+                {
+                    alert("Es un adolescente");
+                }
 
+                
+            }
 
 
 
@@ -20,3 +26,6 @@ if (adolscente) {
 
 
 
+// else {
+    //     alert("No es un adolscente");
+    // }

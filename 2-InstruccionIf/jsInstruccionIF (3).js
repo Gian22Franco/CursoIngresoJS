@@ -8,9 +8,14 @@ if (mayorEdad) {
 
     }
 
-    else {
+    if (edad<18)
+    {
         alert("Esta persona es menor de edad");
     }
+
+//     else {
+//       alert("Esta persona es menor de edad");
+//     }
 
 
 
