@@ -9,6 +9,4 @@ var mesDelAño = document.getElementById('mes').value;
 
 
 }//FIN DE LA FUNCIÓN
-    case"Enero":
-    case"Febrero":
-    case "Ma
+    
