@@ -4,11 +4,11 @@ function mostrar() {
     var promedio;
     var contador = 0;
     var acumulador = 0;
-    var maximo;
+    //var maximo;
     var minimo;
     var sexoMinimo;
-    var sexoMaximo;
-    var contadorMasculino;
+    //var sexoMaximo;
+    var contadorMasculino=0;
 
 
     while (contador < 5) {
@@ -20,6 +20,8 @@ function mostrar() {
         while (sexo != "f" && sexo != "m") {
             sexo = prompt("Sexo no valido, ingrese nuevamente:");
 
+            
+        
         }
         acumulador = acumulador + notas;
 
@@ -33,19 +35,20 @@ function mostrar() {
                 sexoMinimo = sexo;
                 minimo = notas;
             }
+
+
         }
         contador++;
+
+        if (sexo == "m" &&  notas >= 6 ){
+            contadorMasculino++;
+        }
+        
+    
+
     }
-  
-// if(sexo == " m ") && nota >= 6{
-    //contadorMasculino++;
-}
-
-
     promedio = acumulador / contador;
     alert("El promedio de las notas es: " + promedio);
     alert("La nota mas baja es: " + minimo + ". Esta persona es: " + sexoMinimo);
-
+    alert("La cantidad de varones que tienen 6 es: " + contadorMasculino);
 }
-
-
