@@ -77,11 +77,11 @@ function mostrar() {
     } while (seguir == 's');
 
     promedio = acumuladorPeso / contadorPeso;
-    document.write("La cantidad de temperaturas pares es: " + contadorTemp);
-    document.write("La marca del maximo es: " + marcaMax);
-    document.write("La cantidad de productos que se mantienen bajo 0 es: " + contadorTempN);
-    document.write("El promedio del peso de todos los productos es: " + promedio);
-    document.write("EL peso maximo es: " + maximo + "El peso minimo es: " + minimo);
+    document.write("La cantidad de temperaturas pares es: " + contadorTemp + "<br>");
+    document.write("La marca del maximo es: " + marcaMax + "<br>");
+    document.write("La cantidad de productos que se mantienen bajo 0° es: " + contadorTempN + "<br>");
+    document.write("El promedio del peso de todos los productos es: " + promedio + "<br>");
+    document.write("EL peso maximo es: " + maximo + "<br>" + "El peso minimo es: " + minimo + "<br>");
 
 
 }

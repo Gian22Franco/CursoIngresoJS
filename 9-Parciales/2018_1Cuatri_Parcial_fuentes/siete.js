@@ -16,9 +16,9 @@ function mostrar() {
         while (isNaN(notas) || notas < 0 || notas > 10) {
             notas = parseInt(prompt("No es una nota valida, ingrese nuevamente:"));
         }
-        sexo = prompt("ingrese f para femenino y m para masculino");
+        sexo = prompt("ingrese f para femenino y m para masculino"); //.toLowerCase; para que pase todo lo ingresado a minusculas
         while (sexo != "f" && sexo != "m") {
-            sexo = prompt("Sexo no valido, ingrese nuevamente:");
+            sexo = prompt("Sexo no valido, ingrese nuevamente:");//.toLowerCase;
 
             
         
