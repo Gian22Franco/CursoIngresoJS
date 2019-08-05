@@ -72,9 +72,9 @@ function mostrar() {
 
 
 
-        seguir = prompt("Quiere seguir ingresando ?");
+        seguir = confirm("Quiere seguir ingresando ?");
 
-    } while (seguir == 's');
+    } while (seguir == 'true');
 
     promedio = acumuladorPeso / contadorPeso;
     document.write("La cantidad de temperaturas pares es: " + contadorTemp + "<br>");

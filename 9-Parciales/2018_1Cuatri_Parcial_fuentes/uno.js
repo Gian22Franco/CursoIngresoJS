@@ -7,9 +7,19 @@ function mostrar()
     
 
     ancho= prompt("Ingrese el ancho");
-    largo= prompt("ingrese el largo");
+    while(isNaN(ancho)){
+        ancho=prompt("Numero incorrecto, ingreselo nuevamente");
+    
 
-    alert(ancho + largo);
+    }
+    largo= prompt("ingrese el largo");
+    while(isNaN(largo)){
+        largo=prompt("Numero incorrecto, ingreselo nuevamente");
+    
+        
+    }
+
+    alert(ancho*2 + largo*2);
 
 
 
