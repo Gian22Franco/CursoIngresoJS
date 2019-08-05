@@ -10,7 +10,7 @@ function mostrar() {
     //var sexoMaximo;
     var contadorMasculino=0;
 
-
+    // for (var i = 0; i<5; i++){ } For para repetir 5 veces.
     while (contador < 5) {
         notas = parseInt(prompt("Ingrese la nota"));
         while (isNaN(notas) || notas < 0 || notas > 10) {

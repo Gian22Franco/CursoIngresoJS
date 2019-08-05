@@ -40,8 +40,6 @@ do{
        
     }
 
-
-
     if ( numero % 2 == 0){
         contadorPares++;
     }
@@ -53,10 +51,6 @@ do{
     if (numero == 0) {
         contadorCero++;
     }
-
-
-    
-
 
     if (numero <= 100 && numero >= -100){
         letraMin=letra;
